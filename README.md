@@ -21,7 +21,7 @@
     <a href="https://github.com/devbrunopaula/bruno-cms"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">View Demo</a>
+    <a href="bruno-cms.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/devbrunopaula/bruno-cms/issues">Report Bug</a>
     ·
@@ -29,7 +29,7 @@
   </p>
 </p>
 <div align ='center'>
-<img src="logo.png" width="250"/>
+<a href="bruno-cms.netlify.app"><img src="logo.png" width="250"/></a>
 </div>
 <br>
 
