@@ -8,8 +8,8 @@ const LayoutRc = () => {
 			<div>
 				<HeaderComp />
 			</div>
-			<div className=' test1 flex flex-row  layout_sidebar_body '>
-				<div className='sidebar hidden w-1/4 md:block'>
+			<div className='flex flex-row  layout_sidebar_body '>
+				<div className='sidebar  hidden w-72  md:block'>
 					<Sidebar />
 				</div>
 				<div>Body</div>

@@ -11,6 +11,7 @@ module.exports = {
 				DEFAULT: '#1fb6ff',
 				navBlue: '#2D3748',
 				dark: '#009eeb',
+				primary: '#2C5282',
 			},
 			pink: {
 				light: '#D53F8C',
