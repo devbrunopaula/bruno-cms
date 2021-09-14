@@ -7,7 +7,7 @@ export default function HeaderComp() {
 	return (
 		<div>
 			<nav className='bg-blue-navBlue h-20 flex items-center'>
-				<div className='container m-auto flex items-center justify-between'>
+				<div className='w-full flex items-center justify-between px-7 py-7'>
 					<div>
 						<div className='flex items-center'>
 							<img src={Logo} alt='logo icon' />
