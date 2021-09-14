@@ -34,7 +34,7 @@ const ProFeatures = [
 function Sidebar() {
 	const [show, setShow] = useState(false)
 	return (
-		<div className='ml-10 mt-9'>
+		<div className='ml-10 mt-7'>
 			<h4 className='mb-9 text-blue-light'>Manage</h4>
 			<div className='flex flex-row items-center'>
 				<div className='flex flex-col w-full'>
