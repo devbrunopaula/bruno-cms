@@ -2,7 +2,7 @@ import './layout.scss'
 import HeaderComp from '../Header'
 import Sidebar from '../Sidebar'
 
-const LayoutRc = () => {
+const LayoutRc = ({children}) => {
 	return (
 		<div className='flex flex-col'>
 			<div>
@@ -12,7 +12,7 @@ const LayoutRc = () => {
 				<div className='sidebar  hidden w-72  md:block'>
 					<Sidebar />
 				</div>
-				<div>Body</div>
+				<div>{children}</div>
 			</div>
 		</div>
 	)
