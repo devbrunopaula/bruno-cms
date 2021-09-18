@@ -6,10 +6,10 @@ module.exports = {
 	theme: {
 		colors: {
 			transparent: 'transparent',
-			// current: 'currentColor',
+			current: '#294365',
 
 			blue: {
-				light: '#f7fafc',
+				light: '#4d9fe2',
 				DEFAULT: '#1fb6ff',
 				navBlue: '#2D3748',
 				dark: '#009eeb',
@@ -19,11 +19,17 @@ module.exports = {
 			pink: {
 				light: '#D53F8C',
 			},
+			status: {
+				Published: '#a5e8bd',
+				Draft: '#fc8180',
+				Schedule: '#f6ad54',
+			},
 			white: ' #FFF',
-			test: {
+			main: {
 				light: '#b3bcf5',
 				DEFAULT: '#5c6ac4',
 				dark: '#202e78',
+				subtitle: '#c0cad7',
 			},
 		},
 		screens: {
@@ -34,7 +40,9 @@ module.exports = {
 			// xl: {min: '1280px', max: '1535px'},
 		},
 
-		extend: {},
+		extend: {
+			textColor: ['active'],
+		},
 	},
 	variants: {
 		extend: {},

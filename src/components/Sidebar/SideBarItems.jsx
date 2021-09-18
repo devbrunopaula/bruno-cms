@@ -13,7 +13,7 @@ function SideBarItems({data}) {
 	return (
 		<div className='flex mb-5 items-center'>
 			<div className='mr-3 flex items-center'>
-				<data.icon className='h-5 w-5 text-blue-primary mx-2' />
+				<data.icon className='h-5 w-5  mx-2' />
 				<NavLink
 					exact
 					className='w-36 text-lg'
