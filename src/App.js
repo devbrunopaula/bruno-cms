@@ -10,6 +10,9 @@ function App() {
 					<Route exact path='/'>
 						<Home />
 					</Route>
+					<Route exact path='/create-page'>
+						<Test />
+					</Route>
 				</Switch>
 			</LayoutRc>
 		</Router>
@@ -17,3 +20,7 @@ function App() {
 }
 
 export default App
+
+const Test = () => {
+	return <div>Test</div>
+}
